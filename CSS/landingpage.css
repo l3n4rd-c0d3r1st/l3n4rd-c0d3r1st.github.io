@@ -1,0 +1,151 @@
+a.navbutton:link{
+    font-size: 1.125em;
+    color:#ceedd8;
+}
+a.navbutton:visited{
+    font-size: 1.125em;
+    color: #ceedd8;
+}
+a.navbutton:hover{
+    background-color: #ceedd8;
+    font-weight:bold;
+    font-size: 1.12em;
+    color:#6e8994;
+    border: solid;
+    border-color: #675979;
+    border-radius: 10px;
+
+}
+a.navbutton:active{
+    color: #85baa1;
+    font-weight: heavy;
+}
+
+a.name:link{
+    text-decoration: none;
+    color:#ceedd8;
+}
+a.name:visited{
+    text-decoration: none;
+    color:#ceedd8;
+}
+a.name:hover{
+    color: #675979;
+    font-style: italic;
+}
+
+a.name:active{
+    color: #675979;
+}
+
+body{
+    background-color: #6e8994;
+}
+
+div.box{
+    border: 5px solid #67597A;
+    border-radius: 30px;
+    background-color: #85baa1;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 2px;
+    padding:20px 40px;
+    height:300px;
+}
+
+div.column{
+    float:left;
+    width: 50%;
+    max-height: 300px;
+}
+
+div.margin{
+    margin:70px 0 70px 0px;
+}
+
+div.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+img:hover.contact{
+    width:42px;
+    height:42px;
+    opacity:1;
+}
+
+h1{
+    font-family: 'Arial Black', Impact, Georgia, serif;
+    font-size:52px;
+    text-align:left;
+    color:#ceedd8;
+    margin-top:50px;
+}
+
+h2{
+    font-family: 'Arial Black', Impact, Georgia, serif;
+    font-size:40px;
+    text-align: center;
+    margin: 110px 80px 0px 80px;
+    color: #ceedd8;
+}
+h2.name{
+    font-family: 'Arial Black', Impact, Georgia, serif;
+    font-size:40px;
+    margin: 10px 80px;
+    color: #ceedd8;
+    float:right;
+}
+
+img{
+    width: 290px;
+    height:290px;
+    border-radius: 10px;
+    border: 3px solid #675979; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.contact{
+    display:inline-block;
+    background-color: #85baa1;
+    width:40px;
+    height:40px;
+    opacity:0.8;
+    border: 2px solid #67597A;
+    border-radius: 5px;
+    margin:5px;
+    vertical-align: middle;
+}
+
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+li > a{
+    text-align: center;
+    padding: 10px 7px;
+    text-decoration: none;   
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#ceedd8;
+    font-size: 1.2em;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin:20px 40px 20px 0px;  
+}
+
+ul > li{
+    display: inline-block;
+    color: #ceedd8;
+    font-size:1.125em;
+    padding:5px;
+    letter-spacing: 2px;
+}

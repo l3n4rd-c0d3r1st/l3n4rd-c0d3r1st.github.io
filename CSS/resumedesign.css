@@ -1,0 +1,155 @@
+a.navbutton:link{
+    font-size: 1.125em;
+    color:#ceedd8;
+}
+
+a.navbutton:visited{
+    font-size: 1.125em;
+    color: #ceedd8;
+}
+
+a.navbutton:hover{
+    background-color: #ceedd8;
+    font-weight:bold;
+    font-size: 1.12em;
+    color:#6e8994;
+    border: solid;
+    border-color: #675979;
+    border-radius: 10px;
+}
+
+a.navbutton:active{
+    color:#85baa1;
+    font-weight: heavy;
+}
+
+body{
+    background-color: #6e8994; 
+}
+
+div.border{
+    border: 5px solid #67597A;
+    border-radius: 10px;
+    background-color: #85baa1;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+    padding: 10px;
+}
+
+div.column {
+    float: left;
+    width: 50%;
+}
+
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    text-align: center;
+    color: #ceedd8;
+    font-family:'Trebuchet MS', Verdana, 'Segoe UI', sans-serif;
+    letter-spacing: 6px;
+    font-size:45px;
+}
+
+h2{
+    text-align: center;
+    color: #ceedd8;
+    font-family:'Trebuchet MS', Verdana, 'Segoe UI', sans-serif;
+    line-height: 0em;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+h3{
+    font-family:'Trebuchet MS', Verdana, 'Segoe UI', sans-serif;
+    color: #ceedd8;
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+h5{
+    text-align: center;
+    color: #ceedd8;
+    font-family:'Trebuchet MS', Verdana, 'Segoe UI', sans-serif;
+    line-height: 1.5em;
+}
+
+li{
+    font-family:'Trebuchet MS', Verdana, 'Segoe UI', sans-serif;
+    color: #ceedd8;
+    line-height: 1.3em;
+    font-size:1.125em;
+}
+
+p{
+    text-align: justify;
+    font-family:'Trebuchet MS', Verdana, 'Segoe UI', sans-serif;
+    font-size: 1.125em;
+    color: #ceedd8;
+    padding-left: 25px;
+    line-height: 1.5em;   
+}
+
+p.top{
+    float: left;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+p.right{
+    float: right;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+p > a{
+    text-decoration: none;
+    margin:40px 25px 40px 5px;
+    letter-spacing: 2px;
+    padding:5px;
+}
+
+p > b{
+    font-size: 1.25em;
+}
+
+ul li{
+    line-height: 1.5em;
+    font-size: 1.125em;
+}
+
+ul{
+    line-height:1.25em;
+    font-family:'Trebuchet MS', Verdana, 'Segoe UI', sans-serif;
+    font-size: 1.125em;
+    color: #ceedd8;  
+}
+
+
+
+ul.lineborder li{
+    border-left: 5px solid #544E61;
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+.leftindent{
+    text-indent: 30px;
+}
+
+.lettersize{
+    font-size:1.2em;
+}
+
+/*ul.border{
+    border: 5px solid #67597a;
+    border-radius: 10px;
+    background-color: #85baa1;
+    padding-top:10px;
+    padding-bottom:10px;
+}*/
